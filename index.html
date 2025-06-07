@@ -1,57 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+    <!-- Configuración de caracteres, vista responsiva y enlace a estilos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tapitaoca</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Encabezado con logotipo, título estilizado y menú de navegación -->
     <header>
         <section id="logotipo">
-            <h1><span class="tapi">Tapi</span><span class="tao">tao</span><span class="ca">ca</span></h1>
-            <img class="logo" src=".//imagenes/tapitaoca.webp" alt="logo tapitaoca">
+            <h1>
+                <!-- Cada span permite aplicar un color diferente al nombre -->
+                <span class="tapi">Tapi</span><span class="tao">tao</span><span class="ca">ca</span>
+            </h1>
+            <!-- Imagen decorativa del logotipo -->
+            <img class="logo" src="./imagenes/tapitaoca.webp" alt="logo tapitaoca">
             <h4>El arte de disfrutar</h4>
         </section>
         <nav>
             <ul>
+                <!-- Enlaces de navegación entre páginas principales -->
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="menu.html">Menu</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="contactanos.html">contactanos</a></li>
             </ul>
         </nav>
     </header>
-    <main id="principal">
+    <main>
         <section class="espacios">
-
+            <!-- Información básica sobre la tapioca -->
             <article class="quees">
-                <h3>¿Que es la tapioca?</h3><br><br>
-                <p>La tapioca es un crepe a base de almidon de la yuca 100% natural, libre de gluten, 100% saludable y deliciosa</p>
+                <h3>¿Qué es la tapioca?</h3>
+                <p>La tapioca es un crepe a base de almidón de la yuca 100% natural, libre de gluten, 100% saludable y deliciosa.</p>
             </article>
-
+            <!-- Explicación del proceso de preparación, con pasos en lista -->
             <article class="comoes">
-                <h3>¿Como se hace ta tapioca?</h3><br><br>
-                <p id="texto">La tapioca se hace con el almidon de yuca hidratado con agua, se forma la harina y de esa forma, para prepararla sigue esta serie de pasos <br>
-                    Deja calentar el sarten <br>
-                    Ponle queso corteño rayado <br>
-                    Con un colador tamiza la harina, por todo el sarten para que no queden grumos <br>
-                    La reyenas con lo que mas desees <br>
+                <h3>¿Cómo se hace la tapioca?</h3>
+                <p>
+                    La tapioca se hace con el almidón de yuca hidratado con agua, se forma la harina y de esa forma, para prepararla sigue esta serie de pasos:
                 </p>
-                
-                <p>Te daras cuenta que el crepe ya esta hecho porque los bordes de harina se van a separar del sarten</p>
-                
+                <ul>
+                    <li>Deja calentar el sartén</li>
+                    <li>Ponle queso corteño rallado</li>
+                    <li>Con un colador tamiza la harina por todo el sartén para que no queden grumos</li>
+                    <li>La rellenas con lo que más desees</li>
+                </ul>
+                <p>Te darás cuenta que el crepe ya está hecho porque los bordes de harina se van a separar del sartén.</p>
             </article>
-
+            <!-- Breve reseña sobre el origen geográfico y cultural -->
             <article class="suorigen">
-                <h3>¿cual es su origen?</h3><br><br>
-                <p>La tapioca originalmente es de Brasil. El producto se amoldo a las necesidades de la region, lo que se consume normalmente y le gusta al cliente</p>
+                <h3>¿Cuál es su origen?</h3>
+                <p>La tapioca originalmente es de Brasil. El producto se amoldó a las necesidades de la región, lo que se consume normalmente y le gusta al cliente.</p>
             </article>
         </section>
-
+        <!-- Complemento visual e informativo al costado del contenido principal -->
         <aside>
-            <h2>Tapioca</h2><br><br>
-            <img src="./imagenes/tapioca.jpg" alt="tapioca">
+            <h2>Tapioca</h2>
+            <img class="imagen2" src="./imagenes/tapioca.jpg" alt="tapioca">
         </aside>
     </main>
+    <!-- Pie de página con autoría -->
     <footer>
         <p>&copy; Created Maria Almeira</p>
     </footer>
